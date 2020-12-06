@@ -1,14 +1,13 @@
-
 public class Kadai07 {
 
 	/**
-	 * 課題06
-	 * 引数として渡された配列の中で、降順で2番目の値を返す
-	 * @param d 数値が入っている配列
-	 * @return 配列の中の降順で2番目の値
+	 * 課題07
+	 * 文字列の中がすべて半角の数字で構成されているかをTrue、Falseで返すメソッド
+	 * @param s 検査対象文字列
+	 * @return 半角数字のみで構成されていたらtrue
 	 */
-	int get2ndMax(int[] d) {
+	boolean isNumeric(String s) {
 		
-		return -1;
+		return false;
 	}
 }
