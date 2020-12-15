@@ -12,6 +12,8 @@ public class Kadai02 {
 	int countString(String s,char c) {
 
 		try {
+
+
 			int count = 0;
 
 			for(char x: s.toCharArray()) {
@@ -24,7 +26,9 @@ public class Kadai02 {
 
 		}catch(NullPointerException e){
 			System.out.println("Nullは入力できません。");
-			return 0;
+			return -1;
+
+
 		}
 	}
 

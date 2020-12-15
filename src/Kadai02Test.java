@@ -7,8 +7,11 @@ class Kadai02Test {
 	@Test
 	void testReverseString() {
 		Kadai02 k = new Kadai02();
-		assertNull(k.countString(null,' '));
+//		assertNull(k.countString(null,' '));
 		assertEquals(2,k.countString("ApplePie",'p'));
+		assertEquals(2,k.countString("ABCDEFG",'A'));
+
+
 	}
 
 
